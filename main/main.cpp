@@ -435,5 +435,6 @@ int main()
 	if(DEBUG)
 		cout << endl << pool.size() << endl;
 	
+	system("pause");
     return 0;
 }
