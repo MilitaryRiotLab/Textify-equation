@@ -250,9 +250,9 @@ string textify_number(int j, int o) //j is the numbers needed to convert, o is n
 	string output;
 	
 	
-	if (o < 1 && o > 7)
+	if (o < 1 && o > 5)
 	{
-		cout << "ERROR[textify_number]: only support up to 7 digits";
+		cout << "ERROR[textify_number]: only support up to 5 digits";
 	}
 	if (o == 1) 
 	{
@@ -307,7 +307,7 @@ string textify_number(int j, int o) //j is the numbers needed to convert, o is n
 			output += x3(s);
 			output += x1(m);
 		}
-	}
+	}/*
 	if (o == 6)
 	{
 		int k4 = j % 100000; int l4 = j - k4; int z3 = k4 % 10000;
@@ -342,7 +342,7 @@ string textify_number(int j, int o) //j is the numbers needed to convert, o is n
 		output += x4(w1);
 		output += x3(r);
 		output += x1(e);
-	}
+	}*/
 	
 	return output;
 	
