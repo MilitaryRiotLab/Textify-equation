@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="GP_Project" Database="">
   <Project Name="main" Path="main/main.project" Active="Yes"/>
-  <Project Name="test" Path="test/test.project"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
